@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff73b115-5833-45bc-9488-86efe1babd22" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/andreapascarella/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/andreapascarella/dao/EventsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/andreapascarella/dao/LocationsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/andreapascarella/dao/ParticipationsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/andreapascarella/dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/andreapascarella/entities/AthleticsCompetition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/andreapascarella/entities/Concert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/andreapascarella/entities/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/andreapascarella/entities/FootballMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/andreapascarella/entities/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/andreapascarella/entities/Participation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/andreapascarella/entities/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/andreapascarella/enums/EventType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/andreapascarella/enums/GenderType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/andreapascarella/enums/GenreType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/andreapascarella/enums/StateType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/andreapascarella/exceptions/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/andreapascarella/ApplicationTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Exception" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="38c3WRHEh9SuOYZThPcwpFokTxB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff73b115-5833-45bc-9488-86efe1babd22" name="Changes" comment="" />
+      <created>1769085065433</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769085065433</updated>
+    </task>
+    <servers />
+  </component>
+</project>
