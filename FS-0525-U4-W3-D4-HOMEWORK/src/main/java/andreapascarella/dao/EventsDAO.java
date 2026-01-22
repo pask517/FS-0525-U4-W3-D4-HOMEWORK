@@ -1,10 +1,13 @@
 package andreapascarella.dao;
 
 import andreapascarella.entities.Event;
+import andreapascarella.enums.GenreType;
 import andreapascarella.exceptions.NotFoundException;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
+import jakarta.persistence.TypedQuery;
 
+import java.util.List;
 import java.util.UUID;
 
 public class EventsDAO {
@@ -33,9 +36,12 @@ public class EventsDAO {
         return found;
     }
 
-    public Event getConcertsPerGenre() {
+    public List<Event> getConcertsPerGenre(GenreType genre) {
+        TypedQuery<Event> query = em.createQuery("SELECT e FROM Event e WHERE e.genre=:g", Event.class);
+        query.setParameter("g", genre);
+        return query.getResultList();
     }
 
-    public Event getConcertsInStreaming() {
-    }
+    //public Event getConcertsInStreaming() {
+    // }
 }

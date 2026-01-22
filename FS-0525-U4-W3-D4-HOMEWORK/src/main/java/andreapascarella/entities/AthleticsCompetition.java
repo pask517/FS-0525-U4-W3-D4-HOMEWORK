@@ -1,10 +1,7 @@
 package andreapascarella.entities;
 
 import andreapascarella.enums.EventType;
-import jakarta.persistence.Entity;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.OneToOne;
+import jakarta.persistence.*;
 
 import java.time.LocalDate;
 import java.util.HashSet;
@@ -14,6 +11,7 @@ import java.util.Set;
 public class AthleticsCompetition extends Event {
 
     @OneToMany(mappedBy = "competition")
+    @Column(name = "athletes_list")
     private Set<Person> athletes = new HashSet<>();
 
     @OneToOne

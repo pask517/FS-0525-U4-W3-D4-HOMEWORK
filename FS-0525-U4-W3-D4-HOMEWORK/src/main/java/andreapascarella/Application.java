@@ -65,6 +65,8 @@ public class Application {
         System.out.println(garaBallo.getAthletes());
         ed.saveEvent(garaBallo);*/
 
+        System.out.println(ed.getConcertsPerGenre(GenreType.CLASSIC));
+
         System.out.println("Hello World!");
 
         em.close();
